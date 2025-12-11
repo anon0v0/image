@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Environment variables
+.env
+
+# Build outputs
+dist/
+frontend/dist/
+bin/
+
+# User uploads and data
+uploads/
+data/
+backup_*/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System
+.DS_Store
+Thumbs.db
